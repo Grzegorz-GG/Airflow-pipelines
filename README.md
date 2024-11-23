@@ -1,7 +1,6 @@
-Airflow pipeline consists of three DAGs:
+Airflow pipeline consists of the following DAGs:
 <br>
 <p>get_data >> extract_gz >> fetch_pageviews >> write_to_postgres</p>
-<br>
 <p>
   <ul>
     <li>get_data - fetches the data in gzip format from wikimedia about user visits.</li>
